@@ -1,3 +1,26 @@
+<div align="center">
+
+<img src="./assets/hero.svg" alt="math-modeling-skills" width="1000" />
+
+**数学建模 skill：可复算评分门禁 + 三竞赛规则写法包 + 上游实跑补丁（互不依赖，可单装）**
+
+[![stars](https://img.shields.io/github/stars/momoqiqi-qwq/math-modeling-skills?style=for-the-badge&color=f5c518&labelColor=2b2b2b)](https://github.com/momoqiqi-qwq/math-modeling-skills/stargazers) ![license](https://img.shields.io/github/license/momoqiqi-qwq/math-modeling-skills?style=for-the-badge&color=3da639) ![JavaScript](https://img.shields.io/badge/JavaScript-E8B40C?style=for-the-badge&logo=javascript&logoColor=white)
+
+</div>
+
+<details open>
+<summary><b>目录</b></summary>
+
+- [装法](#装法)
+- [math-modeling 本体在哪](#math-modeling-本体在哪)
+- [truth in advertising：这些数字是实测的](#truth-in-advertising这些数字是实测的)
+- [边界（不承诺的事）](#边界不承诺的事)
+- [来源与许可](#来源与许可)
+
+</details>
+
+---
+
 # 数学建模 Skill：两个可独立使用的包 + 一份实跑补丁
 
 三样东西，**互不依赖**。前两个可以单独装、单独用；第三个是加法，装在上游本体上。
