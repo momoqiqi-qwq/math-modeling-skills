@@ -28,9 +28,11 @@ Codex CLI 用 `$CODEX_HOME/skills/`，其它 harness 只要有「按 `SKILL.md` 
 
 `math-modeling-addon` 要**先装上游本体**，再覆盖文件——它不含上游任何内容，原因见下。
 
-## 为什么这里没有 math-modeling 本体
+## math-modeling 本体在哪
 
-上游 `XiaoMaColtAI/math-modeling-skill`（1.9k star）**没有许可证**（GitHub API 返回 `license: null`，即保留所有权利），所以本仓库不整份再分发它。`math-modeling-addon` 里只有自己写的部分，装法是「先 clone 上游，再把文件放进去」，具体步骤见 [那个目录的 README](math-modeling-addon/README.md)。
+上游 [XiaoMaColtAI/math-modeling-skill](https://github.com/XiaoMaColtAI/math-modeling-skill)（1.9k star）**没有许可证**（GitHub API 返回 `license: null`，即保留所有权利）。本仓库因此不整份再分发它，`math-modeling-addon/` 只装自己写的部分。
+
+本体另外维护了一份只读快照：[momoqiqi-qwq/math-modeling-skill-mirror](https://github.com/momoqiqi-qwq/math-modeling-skill-mirror)（快照 `7117121` / 2026-11-13，除 `MIRROR.md` 外与原快照逐字节一致，**版权仍归原作者，不构成授权**）。拿不到上游或上游变动时用它复现，装法见 [那个目录的 README](math-modeling-addon/README.md)。
 
 这件事本身也值得记住：**「公开可访问」不等于「可以再分发」**。没有 LICENSE 的仓库，fork 可以，另起仓库复制不行。
 
